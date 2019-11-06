@@ -4,5 +4,5 @@ Sonar simulator based on blender ver 0.1. Just started.
 Currently only support Blender 2.79
 # Dependencies
 Opencv that can work on python 3.5 (not necessary) and
-OpenEXR. The uploaded OpenEXR only support windows. 
+OpenEXR. The uploaded OpenEXR only supports windows. 
 
