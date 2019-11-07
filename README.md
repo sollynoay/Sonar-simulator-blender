@@ -4,8 +4,8 @@ Sonar simulator based on blender ver 0.1.
 Currently support Blender 2.79 and 2.80.  
 Blender 2.79 has a rectangular-shaped spot light in Blender renderer which is similar to sonar wave emission; however, the accuracy and precision of Blender renderer cannot be guaranteed. For other rendered, using Blenderer 2.80 would be much better, which has more functions. 
 # Dependencies
-Opencv for Python and OpenEXR. The uploaded OpenEXR only supports windows.  
-Installation can follow:
+Opencv for Python and OpenEXR. Although, the program is cross platform, the uploaded OpenEXR only supports windows.  
+Installation for Windows can follow:  
 https://www.kunihikokaneko.com/dblab/cg/bpypip.html  
 You can install everything you need in Blender.  
 # Current function
