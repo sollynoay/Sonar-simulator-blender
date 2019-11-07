@@ -9,7 +9,7 @@ Installation can follow:
 https://www.kunihikokaneko.com/dblab/cg/bpypip.html  
 You can install everything you need in Blender.  
 # Current function
-Raw image generation
+Raw image generation  
 Fan-shaped image generation will be available soon
 # Future function
 Noise and distortion simulation  
