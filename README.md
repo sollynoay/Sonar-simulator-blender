@@ -6,8 +6,10 @@ Blender 2.79 has a rectangular-shaped spot light in Blender renderer which is si
 # Dependencies
 Opencv and OpenEXR.  
 For Opencv in Windows, don't forget to copy dll file to your workspace. To link Opencv to blender, try  
+```
 import sys  
 sys.path.append(path to the correct Python version in Opencv)  
+```
 Although, the program is cross platform, the uploaded OpenEXR only supports windows.  
 Installation for Windows can follow:  
 https://www.kunihikokaneko.com/dblab/cg/bpypip.html  
