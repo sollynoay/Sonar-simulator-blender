@@ -16,8 +16,9 @@ https://www.kunihikokaneko.com/dblab/cg/bpypip.html
 You can install everything you need in Blender.  
 # Tasks
 - [x] Raw image generation  
-- [x] Fan-shaped image generation will be available soon
+- [x] Fan-shaped image generation
 - [x] Underwater scene rendering
+- [x] Square-shaped spot light
 - [ ] Combination of sonar simulation and underwater scene rendering
 - [ ] Noise and distortion simulation  
 - [ ] Anti-aliasing  
