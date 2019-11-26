@@ -19,6 +19,7 @@ You can install everything you need in Blender.
 - [x] Fan-shaped image generation
 - [x] Underwater scene rendering
 - [x] Rectangular-shaped spot light
+- [x] Better intensity integration
 - [ ] Combination of sonar simulation and underwater scene rendering
 - [ ] Noise and distortion simulation  
 - [ ] Anti-aliasing  
