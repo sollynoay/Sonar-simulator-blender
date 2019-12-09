@@ -13,9 +13,16 @@ sys.path.append(path to the correct Python version in Opencv)
 Although, the program is cross platform, the uploaded OpenEXR only supports windows.  
 Installation for Windows can follow:  
 https://www.kunihikokaneko.com/dblab/cg/bpypip.html  
+```
+"C:\Program Files\Blender Foundation\Blender\2.80\python\bin\python.exe" -m ensurepip
+"C:\Program Files\Blender Foundation\Blender\2.80\python\bin\python.exe" -m pip install --upgrade pip 
+```
 Pre-built Windows packages:  
 https://www.lfd.uci.edu/~gohlke/pythonlibs/#wxpython  
 You can install everything you need in Blender.  
+```
+"C:\Program Files\Blender Foundation\Blender\2.80\python\bin\python.exe" -m pip install xxx.whl
+```
 # Tasks
 - [x] Raw image generation  
 - [x] Fan-shaped image generation
