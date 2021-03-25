@@ -42,3 +42,9 @@ You can install everything you need in Blender.
 2. Mai et al., Acoustic Image Simulator Based on Active Sonar Model in Underwater Environment, 2018  
 3. Cerqueira et al.,  A novel GPU-based sonar simulator for real-time applications, 2017       
 4. Wook et al., Physically based Sonar Simulation and Image Generation for Side-scan Sonar, 2017
+# Citation
+If you are using our simulator, please cite one of our papers.
+1. Yusheng Wang, Yonghoon Ji, Dingyu Liu, Yusuke Tamura, Hiroshi Tsuchiya, Atsushi Yamashita and Hajime Asama: "ACMarker: Acoustic Camera-based Fiducial Marker System in Underwater Environment", IEEE Robotics and Automation Letters, Vol. 5, No. 4, pp. 5018-5025, October 2020.
+2. Dingyu Liu, Yusheng Wang, Yonghoon Ji, Hiroshi Tsuchiya, Atsushi Yamashita and Hajime Asama: "CycleGAN-based Realistic Image Dataset Generation for Forward-looking Sonar", Advanced Robotics, Vol. 35, No. 3-4, pp. 242-254, February 2021.
+3. Yusheng Wang, Yonghoon Ji, Hanwool Woo, Yusuke Tamura, Hiroshi Tsuchiya, Atsushi Yamashita and Hajime Asama: "Acoustic Camera-based Pose Graph SLAM for Dense 3D Mapping in Underwater Environments", IEEE Journal of Oceanic Engineering, Vol. 46, 2021.
+4. Dingyu Liu, Yusheng Wang, Yonghoon Ji, Hiroshi Tsuchiya, Atsushi Yamashita and Hajime Asama: "Development of Image Simulator for Forward-looking Sonar Using 3D Rendering", Proceedings of the 16th International Conference on Quality Control by Artificial Vision (QCAV2021), Tokushima (Japan), May 2021.
