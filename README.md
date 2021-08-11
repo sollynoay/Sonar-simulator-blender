@@ -2,15 +2,16 @@
 Sonar simulator based on blender ver 0.3. 
 # Blender version
 Currently support Blender 2.79 and 2.80.  
-Blender 2.79 has a rectangular-shaped spot light in Blender renderer which is similar to sonar wave emission; however, the accuracy and precision of Blender renderer cannot be guaranteed. For other rendered, using Blenderer 2.80 would be much better, which has more functions. 
+Blender 2.79 has a rectangular-shaped spot light in Blender renderer which is similar to the shape of sonar scope, in Blender 2.80, we build a box with absoprtion material to form the shape of sonar scope. The depth accuracy in Eevee does not satisfy our task, it is necessary to use physical rendered such as Cycles. Please use the experimental one in Blender 2.80. Note that the depth here is not the z value of the virtual optical camera, but the distance between the 3D point and the camera center. 
 # Dependencies
-Opencv and OpenEXR.  
+We use python script in Blender to generate acoustic images. It is necessary to install packages in the Python in Blender.  
+Basic packages: Opencv and OpenEXR.   
 For Opencv in Windows, don't forget to copy dll file to your workspace. To link Opencv to blender, try  
 ```
 import sys  
 sys.path.append(path to the correct Python version in Opencv)  
 ```
-Although, the program is cross platform, the uploaded OpenEXR only supports windows.  
+For windows users, we also upload the pre-built OpenEXR.  
 Installation for Windows can follow:  
 https://www.kunihikokaneko.com/dblab/cg/bpypip.html  
 ```
@@ -43,7 +44,7 @@ You can install everything you need in Blender.
 3. Cerqueira et al.,  A novel GPU-based sonar simulator for real-time applications, 2017       
 4. Wook et al., Physically based Sonar Simulation and Image Generation for Side-scan Sonar, 2017
 # Citation
-If you are using our simulator, please cite one of our papers.
+If you are using our simulator, please cite any of our papers.
 1. Yusheng Wang, Yonghoon Ji, Dingyu Liu, Yusuke Tamura, Hiroshi Tsuchiya, Atsushi Yamashita and Hajime Asama: "ACMarker: Acoustic Camera-based Fiducial Marker System in Underwater Environment", IEEE Robotics and Automation Letters, Vol. 5, No. 4, pp. 5018-5025, October 2020.
 2. Dingyu Liu, Yusheng Wang, Yonghoon Ji, Hiroshi Tsuchiya, Atsushi Yamashita and Hajime Asama: "CycleGAN-based Realistic Image Dataset Generation for Forward-looking Sonar", Advanced Robotics, Vol. 35, No. 3-4, pp. 242-254, February 2021.
 3. Yusheng Wang, Yonghoon Ji, Dingyu Liu, Hiroshi Tsuchiya, Atsushi Yamashita and Hajime Asama: "Elevation Angle Estimation in 2D Acoustic Images Using Pseudo Front View", IEEE Robotics and Automation Letters, Vol. 6, No. 2, pp. 1535-1542, April 2021.
