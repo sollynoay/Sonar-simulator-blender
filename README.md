@@ -25,6 +25,11 @@ You can install everything you need in Blender.
 ```
 "C:\Program Files\Blender Foundation\Blender\2.80\python\bin\python.exe" -m pip install xxx.whl
 ```
+# Save path
+The rendered intensity image, depth and normal maps are first saved under  
+"C:\\Users\\Yusheng Wang\\AppData\\Roaming\\Blender Foundation\\Blender\\2.91\\config\\BlenderPython\\"  in .exr as buffer.
+Then, they are read to generate acoustic images. Please check the name of the .exr files in system console in Blender.  
+Please change the save path of the acoustic images as well.
 
 # Tips
 1. The Python script to generate acoustic images is written in "Sonar image simulator" in Text editor in Blender 2.80.  
