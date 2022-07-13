@@ -1,5 +1,10 @@
 # Sonar-simulator-blender
-This is a 2D forward looking sonar simulator built in Blender. The default parameter setting of the 2D forward looking sonar in this simulator is consistent with [ARIS EXPLORER 3000](http://www.soundmetrics.com/). Examples of the synthetic image from the simulator and the real image from a water tank are shown as follows (aritficial objects on the ground).
+This is a 2D forward looking sonar simulator built in Blender. 
+
+![inBlender](https://user-images.githubusercontent.com/11170161/178634463-a0c1452d-5e8a-4788-b5dc-feb0bcf7f209.PNG)
+
+
+The default parameter setting of the 2D forward looking sonar in this simulator is consistent with [ARIS EXPLORER 3000](http://www.soundmetrics.com/). Examples of the synthetic image from the simulator and the real image from a water tank are shown as follows (aritficial objects on the ground).
 
 ![sim_17](https://user-images.githubusercontent.com/11170161/178511300-2eb06d3d-9918-464c-8e77-dc09ae134cc0.png)
 ![real_17](https://user-images.githubusercontent.com/11170161/178511121-01974f5e-2346-40fd-ad5f-5508b2c4c602.png)
