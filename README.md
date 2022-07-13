@@ -54,6 +54,7 @@ You can install everything you need in Blender.
 ```
 "C:\Program Files\Blender Foundation\Blender\2.80\python\bin\python.exe" -m pip install xxx.whl
 ```
+Sometimes there may be problems if command prompt is not run in admin mode. **It is recommanded to run command prompt as administrator.**
 # Save path
 The rendered intensity image, depth and normal maps are first saved under  
 "C:\\Users\\Yusheng Wang\\AppData\\Roaming\\Blender Foundation\\Blender\\2.91\\config\\BlenderPython\\"  in .exr as buffer.
