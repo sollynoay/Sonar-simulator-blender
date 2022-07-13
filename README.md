@@ -20,7 +20,8 @@ We use python script in Blender to generate acoustic images. It is necessary to 
 Basic packages: OpenCV and OpenEXR.  
 There is no strict version requirements for OpenCV and OpenEXR. Just to make sure the python version of Blender meets the dependencies version. 
 For example, Blender 2.93 uses python 3.9, more recent OpenCV would be preferred, like 3.4.16. 
-## OpenCV
+## Installation in Windows
+### OpenCV
 There are several methods to install OpenCV to the python in Blender.
 Here, an example is given by downloading [OpenCV](https://opencv.org/releases/) first and link to the OpenCV library in Windows.
 1. Download the compiled OpenCV for Windows and extract it.
@@ -38,7 +39,7 @@ After the aforementioned process, try
 import cv2  
 ```
 in Blender.
-## OpenEXR
+### OpenEXR
 Installing a prebuilt .whl is simpler for Windows. 
 If you known Japanese, installation for Windows can refer:  
 https://www.kunihikokaneko.com/dblab/cg/bpypip.html  
