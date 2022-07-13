@@ -19,7 +19,7 @@ For Blender 2.90, we use Cylcles rendering engine, experimental version. The fea
 We use python script in Blender to generate acoustic images. It is necessary to install packages in the Python in Blender.  
 Basic packages: OpenCV and OpenEXR.  
 There is no strict version requirements for OpenCV and OpenEXR. Just to make sure the python version of Blender meets the dependencies version. 
-For example, Blender 2.93 uses python 3.9, more recent OpenCVv would be preferred, like 3.4.16. 
+For example, Blender 2.93 uses python 3.9, more recent OpenCV would be preferred, like 3.4.16. 
 ## OpenCV
 There are several methods to install OpenCV to the python in Blender.
 Here, an example is given by downloading [OpenCV](https://opencv.org/releases/) first and link to the OpenCV library in Windows.
