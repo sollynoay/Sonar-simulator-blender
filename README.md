@@ -17,7 +17,7 @@ The scalability and flexibility of the [previous simulator](https://ieeexplore.i
 
 # Blender version
 Currently support Blender 2.79, 2.80, 2.90.  
-Blender 2.79 has a rectangular-shaped spot light in Blender renderer which is similar to the shape of sonar scope, in Blender 2.80, we build a box with absoprtion material to form the shape of sonar scope. The depth accuracy in Eevee does not satisfy our task, it is necessary to use physical rendered such as Cycles. Please use the experimental one in Blender 2.80. Note that the depth here is not the z value of the virtual optical camera, but the distance between the 3D point and the camera center.  
+Blender 2.79 has a rectangular-shaped spot light in Blender renderer which is similar to the shape of sonar scope, in Blender 2.80, we build a box with absoprtion material to form the shape of sonar scope. The depth accuracy in Eevee does not satisfy our task, it is necessary to use physical rendered such as **Cycles**. Please use the experimental one in Blender 2.80. Note that the depth here is not the z value of the virtual optical camera, but the distance between the 3D point and the camera center.  
 For Blender 2.90, we use Cylcles rendering engine, experimental version. The feature changed in Blender 2.90. The default depth map rendered is the z value map for optical camera. It is necessary to change it to the distance between the 3D point and the camera center. We add modification code for the transformation. 
 
 # Dependencies
@@ -62,12 +62,12 @@ You can install everything you need in Blender.
 Sometimes there may be problems if command prompt is not run in admin mode. **It is recommanded to run command prompt as administrator.**
 # Save path
 The rendered intensity image, depth and normal maps are first saved under  
-"C:\\Users\\Yusheng Wang\\AppData\\Roaming\\Blender Foundation\\Blender\\2.91\\config\\BlenderPython\\"  in .exr as buffer.
-Then, they are read to generate acoustic images. Please check the name of the .exr files in system console in Blender.  
+"C:\\Users\\Yusheng Wang\\AppData\\Roaming\\Blender Foundation\\Blender\\2.91\\config\\BlenderPython\\"  in .exr as buffer.  
+Then, they are read to generate acoustic images. Please check the name of the .exr files in system console in Blender.   
 Please change the save path of the acoustic images as well.
 
 # Tips
-1. The Python script to generate acoustic images is written in "Sonar image simulator" in Text editor in Blender 2.80.  
+1. The Python script to generate acoustic images is written in "Sonar image simulator" in Text editor in Blender.  
 2. Modifying the configuration of camera and objects can generate different images. With Blender's powerful GUI, a lot of scenes can be simulated easily.  
 3. You can also try adding objects with different materials by defining different material characteristics.
 # Tasks
