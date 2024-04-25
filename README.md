@@ -60,7 +60,7 @@ However, the process is actually simple.
 "C:\Program Files\Blender Foundation\Blender\2.80\python\bin\python.exe" -m pip install --upgrade pip 
 ```
 Pre-built Windows packages:  
-https://www.lfd.uci.edu/~gohlke/pythonlibs/#wxpython  
+[link](https://www.wheelodex.org/projects/openexr/)  
 You can install everything you need in Blender.  
 ```
 "C:\Program Files\Blender Foundation\Blender\2.80\python\bin\python.exe" -m pip install xxx.whl
