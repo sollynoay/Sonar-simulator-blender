@@ -1,5 +1,7 @@
 # Sonar-simulator-blender
-This is a 2D forward looking sonar simulator built in Blender. 
+This is a 2D forward looking sonar simulator built in Blender.  
+
+We released a new simulator with more realistic images and more functions. Please have a look. [link](https://github.com/sollynoay/ACSim)
 
 ![inBlender](https://user-images.githubusercontent.com/11170161/178634463-a0c1452d-5e8a-4788-b5dc-feb0bcf7f209.PNG)
 
